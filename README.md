@@ -1,22 +1,37 @@
 # Student Pass/Fail Predictor
 
-This project predicts whether a student will pass or fail based on academic and lifestyle features.
+This project is a simple machine learning application to predict whether a student will pass or fail based on their study and participation patterns.
 
-## Features Used
-- Attendance Percent
-- Hours Studied Per Week
-- Previous Exam Score
-- Assignments Submitted
-- Participation in extracurricular activities
+## 🚀 Features
 
-## Machine Learning Model
-- Logistic Regression
-- Achieved test accuracy of 82.5%
+- Predicts student pass/fail status using logistic regression
+- Trained on a sample CSV dataset
+- Provides accuracy metrics and confusion matrix
+- Can be extended with Streamlit for interactive web app
 
-## Usage
-- Train the model on `student_data.csv`
-- Save using joblib
-- Load and predict on new student data
+## 📂 Files
 
-## Author
-- varsha (CSE, B.Tech)
+- `student_data.csv` - training dataset
+- `student_pass_fail_model.pkl` - saved trained model
+- `student_predictor.ipynb` - Jupyter Notebook with full code
+- `README.md` - project overview
+
+## 💻 How to Run
+
+1. Clone this repository  
+2. Install dependencies (`scikit-learn`, `pandas`, etc.)  
+3. Run the notebook to retrain or test  
+4. Load the `pkl` model to make predictions on new data
+
+## 🚀 Future Work
+
+- Integrate with Streamlit for an interactive web UI
+- Improve feature engineering
+- Deploy on cloud
+
+## 🤝 Contact
+
+**Venna Satyavarshasri**  
+Email: *[add your email if comfortable]*  
+GitHub: [Venna-Satyavarshasri](https://github.com/Venna-Satyavarshasri)
+
